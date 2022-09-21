@@ -5,6 +5,7 @@ SQLite:
          https://sqlitebrowser.org/
 
 •	One of the table team_analysis was created using the below join query and data was downloaded in local machine in csv format
+
 SELECT * FROM Team t1
 INNER JOIN Team_Attributes t2 ON 
 t1.id = t2.ID 
